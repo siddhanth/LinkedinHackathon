@@ -16,8 +16,17 @@ public class Place implements Serializable {
     private String name;
     private Double latitude;
     private Double longitude;
+    private String status;
 
-    public String getId() {
+    public String getStatus() {
+		return status;
+	}
+
+	public void setStatus(String status) {
+		this.status = status;
+	}
+
+	public String getId() {
         return id;
     }
 
