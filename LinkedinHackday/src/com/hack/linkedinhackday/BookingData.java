@@ -11,6 +11,15 @@ public class BookingData implements Serializable {
 	private long bookingTime;
 	private int noOfPeople;
 	private String phoneNo;
+	private String bookingId;
+
+	public String getBookingId() {
+		return bookingId;
+	}
+
+	public void setBookingId(String bookingId) {
+		this.bookingId = bookingId;
+	}
 
 	public String getName() {
 		return name;
