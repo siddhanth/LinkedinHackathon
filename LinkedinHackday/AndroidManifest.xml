@@ -46,6 +46,10 @@
             android:name="com.hack.linkedinhackday.TablesFullActivity"
             android:label="@string/title_activity_tables_full" >
         </activity>
+        <activity
+            android:name="com.hack.linkedinhackday.InitialFormActivity"
+            android:label="@string/title_activity_initial_form" >
+        </activity>
     </application>
 
     <permission

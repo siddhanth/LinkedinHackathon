@@ -238,7 +238,7 @@ public class SeatMapActivity extends Activity implements OnClickListener,
 			progressDialog.setCancelable(false);
 			progressDialog.setMessage("Booking your table..");
 			progressDialog.show();
-			String URL = "http://inhackday.herokuapp.com/cust?action=book&tableId="
+			String URL = "http://inhackday.herokuapp.com/cust?action=book&data="
 					+ tableId;
 			System.out.println("in send table to backend  " + URL);
 			HttpPost httpPost = new HttpPost(URL);
