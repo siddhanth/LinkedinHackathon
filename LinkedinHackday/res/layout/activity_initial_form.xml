@@ -3,13 +3,61 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".InitialFormActivity" >
-    
-    <TextView 
+
+    <TextView
         android:id="@+id/no_of_ppl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
-        android:text="Number of People"
-        />
+        android:layout_marginLeft="30dp"
+        android:text="Number of People" />
+
+    <Button
+        android:id="@+id/button_no_of_ppl"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/no_of_ppl"
+        android:layout_below="@+id/no_of_ppl"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="left|center_vertical" />
+    
+    <TextView
+        android:id="@+id/time_picker_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button_no_of_ppl"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="30dp"
+        android:text="Time" />
+
+    <Button
+        android:id="@+id/time_picker"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/no_of_ppl"
+        android:layout_below="@+id/time_picker_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="left|center_vertical" />
+    
+    <TextView
+        android:id="@+id/area_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_below="@+id/time_picker"
+        android:layout_marginLeft="30dp"
+        android:text="Area" />
+
+    <EditText
+        android:id="@+id/text_area"
+        android:layout_height="50dp"
+        android:layout_width="fill_parent"
+        android:layout_alignLeft="@+id/no_of_ppl"
+        android:layout_below="@+id/no_of_ppl"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="30dp"
+        android:gravity="left|center_vertical" />
 
 </RelativeLayout>
