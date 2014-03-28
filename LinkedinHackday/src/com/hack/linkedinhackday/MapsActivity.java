@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import android.content.Context;
+import android.content.Intent;
 import android.content.res.Resources;
 import android.graphics.Color;
 import android.location.LocationManager;
@@ -26,7 +27,8 @@ import com.parse.ParseAnalytics;
 import com.parse.ParseInstallation;
 import com.parse.PushService;
 
-public class MapsActivity extends FragmentActivity implements OnInfoWindowClickListener {
+public class MapsActivity extends FragmentActivity implements
+		OnInfoWindowClickListener {
 
 	LocationManager locationManager;
 	Resources res;
@@ -173,14 +175,14 @@ public class MapsActivity extends FragmentActivity implements OnInfoWindowClickL
 						.position(
 								new LatLng(result.get(i).getLatitude(), result
 										.get(i).getLongitude()))
-						.title(result.get(i).getName() + ", "
-								+ result.get(i).getStatus()).icon(bdresturant));
+						.title(result.get(i).getName())
+						.snippet(result.get(i).getStatus()).icon(bdresturant));
 
 			}
 		}
 
 		map.setOnInfoWindowClickListener(this);
-		
+
 	}
 
 	public static void main(String[] args) {
@@ -189,6 +191,15 @@ public class MapsActivity extends FragmentActivity implements OnInfoWindowClickL
 
 	@Override
 	public void onInfoWindowClick(Marker marker) {
-		
+		if(marker.getSnippet().equalsIgnoreCase("free")){
+			Intent i = new Intent(context, SeatMapActivity.class);
+			startActivity(i);
+		} else if(marker.getSnippet().equalsIgnoreCase("full")){
+			Intent i = new Intent(context, TablesFullActivity.class);
+			startActivity(i);
+		} else if(marker.getSnippet().equalsIgnoreCase("filling fast")){
+			Intent i = new Intent(context, SeatMapActivity.class);
+			startActivity(i);
+		}
 	}
 }

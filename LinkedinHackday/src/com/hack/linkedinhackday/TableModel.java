@@ -22,6 +22,8 @@ public class TableModel implements Serializable {
 	public class TableValueModel {
 		private boolean booked;
 		
+		private String tableID;
+		
 		public boolean getBooked() {
 			return booked;
 		}
