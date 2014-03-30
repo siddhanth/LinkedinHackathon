@@ -24,7 +24,8 @@
                 android:layout_alignParentTop="true"
                 android:layout_marginLeft="137dp"
                 android:layout_marginTop="40dp"
-                android:src="@drawable/horizontal_2" />
+                android:src="@drawable/horizontal_2"
+                android:contentDescription="table1" />
 
             <ImageButton
                 android:id="@+id/table_2"
@@ -33,7 +34,8 @@
                 android:layout_alignTop="@+id/table_1"
                 android:layout_marginLeft="39dp"
                 android:layout_toRightOf="@+id/table_1"
-                android:src="@drawable/horizontal_2" />
+                android:src="@drawable/horizontal_2"
+                android:contentDescription="table2" />
 
             <ImageButton
                 android:id="@+id/table_3"
@@ -42,7 +44,8 @@
                 android:layout_alignTop="@+id/table_1"
                 android:layout_marginLeft="39dp"
                 android:layout_toRightOf="@+id/table_2"
-                android:src="@drawable/horizontal_2" />
+                android:src="@drawable/horizontal_2"
+                android:contentDescription="table3" />
 
             <ImageButton
                 android:id="@+id/table_4"
@@ -52,7 +55,8 @@
                 android:layout_alignParentLeft="true"
                 android:layout_marginBottom="60dp"
                 android:layout_marginLeft="400dp"
-                android:src="@drawable/umbrella" />
+                android:src="@drawable/umbrella"
+                android:contentDescription="table4" />
 
             <ImageButton
                 android:id="@+id/table_5"
@@ -61,7 +65,8 @@
                 android:layout_alignTop="@+id/table_4"
                 android:layout_marginLeft="40dp"
                 android:layout_toRightOf="@+id/table_4"
-                android:src="@drawable/umbrella" />
+                android:src="@drawable/umbrella"
+                android:contentDescription="table5" />
 
             <ImageButton
                 android:id="@+id/table_6"
@@ -70,7 +75,8 @@
                 android:layout_above="@+id/table_4"
                 android:layout_alignLeft="@+id/table_4"
                 android:layout_marginBottom="50dp"
-                android:src="@drawable/umbrella" />
+                android:src="@drawable/umbrella"
+                android:contentDescription="table6" />
 
             <ImageButton
                 android:id="@+id/table_7"
@@ -79,7 +85,8 @@
                 android:layout_above="@+id/table_4"
                 android:layout_alignLeft="@+id/table_5"
                 android:layout_marginBottom="50dp"
-                android:src="@drawable/umbrella" />
+                android:src="@drawable/umbrella"
+                android:contentDescription="table7" />
 
             <ImageButton
                 android:id="@+id/table_8"
@@ -89,7 +96,8 @@
                 android:layout_below="@+id/table_1"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="30dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table8" />
 
             <ImageButton
                 android:id="@+id/table_9"
@@ -98,7 +106,8 @@
                 android:layout_alignLeft="@+id/table_10"
                 android:layout_below="@+id/table_8"
                 android:layout_marginTop="38dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table9" />
 
             <ImageButton
                 android:id="@+id/table_10"
@@ -108,7 +117,8 @@
                 android:layout_below="@+id/table_9"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="38dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table10" />
 
             <ImageButton
                 android:id="@+id/table_11"
@@ -118,7 +128,8 @@
                 android:layout_below="@+id/table_10"
                 android:layout_marginLeft="45dp"
                 android:layout_marginTop="38dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table11" />
 
             <ImageButton
                 android:id="@+id/table_12"
@@ -126,7 +137,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_9"
                 android:layout_marginLeft="290dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table12" />
 
             <ImageButton
                 android:id="@+id/table_13"
@@ -134,7 +146,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_10"
                 android:layout_marginLeft="290dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table13" />
 
             <ImageButton
                 android:id="@+id/table_14"
@@ -142,7 +155,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_11"
                 android:layout_marginLeft="290dp"
-                android:src="@drawable/vertical_2" />
+                android:src="@drawable/vertical_2"
+                android:contentDescription="table14" />
 
             <ImageButton
                 android:id="@+id/table_15"
@@ -150,7 +164,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_9"
                 android:layout_marginLeft="165dp"
-                android:src="@drawable/vertical_4" />
+                android:src="@drawable/vertical_4"
+                android:contentDescription="table15" />
 
             <ImageButton
                 android:id="@+id/table_16"
@@ -158,7 +173,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_10"
                 android:layout_marginLeft="165dp"
-                android:src="@drawable/vertical_4" />
+                android:src="@drawable/vertical_4"
+                android:contentDescription="table16" />
 
             <ImageButton
                 android:id="@+id/table_17"
@@ -166,7 +182,8 @@
                 android:layout_height="60dp"
                 android:layout_alignTop="@+id/table_11"
                 android:layout_marginLeft="165dp"
-                android:src="@drawable/vertical_4" />
+                android:src="@drawable/vertical_4"
+                android:contentDescription="table17" />
         </RelativeLayout>
     </HorizontalScrollView>
 

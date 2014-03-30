@@ -67,7 +67,7 @@ public class PostRequest extends AsyncTask<HttpPost, Void, Object> {
 
 	@Override
 	protected void onPostExecute(Object result) {
-		System.out.println("result in onPostExecute  " + result.toString() );
+		System.out.println("result in onPostExecute  " + result.toString());
 		if(result.equals(success)){
 			this.responseObject.didReceiveData(result);
 		} else{
